@@ -14,11 +14,11 @@ int main() {
     float v2 = (4 * pi * pow(a, 2) * b) / 3;
     cout << fixed << setprecision(6);
     setlocale(LC_ALL, "russian");
-    cout << "Âûòÿíóòûé ýëëèïñîèä" << endl;
-    cout << "Ïëîùàäü: " << s1 << endl;
-    cout << "Îáú¸ì: " << v1 << endl;
-    cout << "\nÑïëþñíóòûé ýëëèïñîèä" << endl;
-    cout << "Ïëîùàäü: " << s2 << endl;
-    cout << "Îáú¸ì: " << v2 << endl;
+    cout << "Ð’Ñ‹Ñ‚ÑÐ½ÑƒÑ‚Ñ‹Ð¹ ÑÐ»Ð»Ð¸Ð¿ÑÐ¾Ð¸Ð´" << endl;
+    cout << "ÐŸÐ»Ð¾Ñ‰Ð°Ð´ÑŒ: " << s1 << endl;
+    cout << "ÐžÐ±ÑŠÑ‘Ð¼: " << v1 << endl;
+    cout << "\nÐ¡Ð¿Ð»ÑŽÑÐ½ÑƒÑ‚Ñ‹Ð¹ ÑÐ»Ð»Ð¸Ð¿ÑÐ¾Ð¸Ð´" << endl;
+    cout << "ÐŸÐ»Ð¾Ñ‰Ð°Ð´ÑŒ: " << s2 << endl;
+    cout << "ÐžÐ±ÑŠÑ‘Ð¼: " << v2 << endl;
     return 0;
 }
